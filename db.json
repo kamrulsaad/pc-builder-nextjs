@@ -1,7 +1,7 @@
 {
     "products": [
         {
-            "image": "@/assets/monitor/lg-monitor.jpeg",
+            "image": "/assets/monitor/lg-monitor.jpeg",
             "name": "LG UltraWide Monitor",
             "category": "Monitor",
             "status": "In Stock",
@@ -30,7 +30,7 @@
             "individualRating": 4.6
         },
         {
-            "image": "@/assets/monitor/monitor2.jpeg",
+            "image": "/assets/monitor/monitor2.jpeg",
             "name": "HP Gaming Monitor",
             "category": "Monitor",
             "status": "In Stock",
@@ -59,7 +59,7 @@
             "individualRating": 4.8
         },
         {
-            "image": "@/assets/monitor/asus1.jpg",
+            "image": "/assets/monitor/asus1.jpg",
             "name": "ASUS Designo Curved Monitor",
             "category": "Monitor",
             "status": "In Stock",
@@ -88,7 +88,7 @@
             "individualRating": 4.7
         },
         {
-            "image": "@/assets/monitor/monitor3.jpeg",
+            "image": "/assets/monitor/monitor3.jpeg",
             "name": "ViewSonic Gaming Monitor",
             "category": "Monitor",
             "status": "In Stock",
@@ -117,7 +117,7 @@
             "individualRating": 4.9
         },
         {
-            "image": "@/assets/monitor/monitor4.jpeg",
+            "image": "/assets/monitor/monitor4.jpeg",
             "name": "Acer Nitro Gaming Monitor",
             "category": "Monitor",
             "status": "In Stock",
@@ -146,7 +146,7 @@
             "individualRating": 4.6
         },
         {
-            "image": "@/assets/cpu/1.jpg",
+            "image": "/assets/cpu/1.jpg",
             "name": "Intel Core i9-12900K",
             "category": "CPU",
             "status": "In Stock",
@@ -175,7 +175,7 @@
             "individualRating": 4.9
         },
         {
-            "image": "@/assets/cpu/2.jpeg",
+            "image": "/assets/cpu/2.jpeg",
             "name": "AMD Ryzen 9 5900X",
             "category": "CPU",
             "status": "In Stock",
@@ -204,7 +204,7 @@
             "individualRating": 4.7
         },
         {
-            "image": "@/assets/cpu/3.jpeg",
+            "image": "/assets/cpu/3.jpeg",
             "name": "Intel Core i7-12700KF",
             "category": "CPU",
             "status": "In Stock",
@@ -233,7 +233,7 @@
             "individualRating": 4.6
         },
         {
-            "image": "@/assets/cpu/4.jpeg",
+            "image": "/assets/cpu/4.jpeg",
             "name": "AMD Ryzen 7 5800X",
             "category": "CPU",
             "status": "In Stock",
@@ -262,7 +262,7 @@
             "individualRating": 4.7
         },
         {
-            "image": "@/assets/cpu/5.jpeg",
+            "image": "/assets/cpu/5.jpeg",
             "name": "Intel Core i5-12600K",
             "category": "CPU",
             "status": "In Stock",
@@ -291,7 +291,7 @@
             "individualRating": 4.6
         },
         {
-            "image": "@/assets/motherboard/1.jpeg",
+            "image": "/assets/motherboard/1.jpeg",
             "name": "ASUS ROG Strix Z590-E",
             "category": "Motherboard",
             "status": "In Stock",
@@ -321,7 +321,7 @@
             "individualRating": 4.8
         },
         {
-            "image": "@/assets/motherboard/2.jpeg",
+            "image": "/assets/motherboard/2.jpeg",
             "name": "MSI MPG B550 Gaming Edge",
             "category": "Motherboard",
             "status": "In Stock",
@@ -351,7 +351,7 @@
             "individualRating": 4.7
         },
         {
-            "image": "@/assets/motherboard/3.jpeg",
+            "image": "/assets/motherboard/3.jpeg",
             "name": "GIGABYTE Aorus X570 Master",
             "category": "Motherboard",
             "status": "In Stock",
@@ -381,7 +381,7 @@
             "individualRating": 4.9
         },
         {
-            "image": "@/assets/motherboard/4.jpeg",
+            "image": "/assets/motherboard/4.jpeg",
             "name": "ASRock B560 Steel Legend",
             "category": "Motherboard",
             "status": "In Stock",
@@ -411,7 +411,7 @@
             "individualRating": 4.6
         },
         {
-            "image": "@/assets/motherboard/5.jpeg",
+            "image": "/assets/motherboard/5.jpeg",
             "name": "ASUS Prime X570-P",
             "category": "Motherboard",
             "status": "In Stock",
@@ -441,7 +441,7 @@
             "individualRating": 4.5
         },
         {
-            "image": "@/assets/ram/1.jpeg",
+            "image": "/assets/ram/1.jpeg",
             "name": "Corsair Vengeance RGB Pro",
             "category": "RAM",
             "status": "In Stock",
@@ -469,7 +469,7 @@
             "individualRating": 4.7
         },
         {
-            "image": "@/assets/ram/2.jpeg",
+            "image": "/assets/ram/2.jpeg",
             "name": "G.Skill Trident Z RGB",
             "category": "RAM",
             "status": "In Stock",
@@ -497,7 +497,7 @@
             "individualRating": 4.9
         },
         {
-            "image": "@/assets/ram/3.jpeg",
+            "image": "/assets/ram/3.jpeg",
             "name": "Kingston HyperX Fury",
             "category": "RAM",
             "status": "In Stock",
@@ -525,7 +525,7 @@
             "individualRating": 4.5
         },
         {
-            "image": "@/assets/ram/4.jpeg",
+            "image": "/assets/ram/4.jpeg",
             "name": "Crucial Ballistix MAX",
             "category": "RAM",
             "status": "In Stock",
@@ -553,7 +553,7 @@
             "individualRating": 4.6
         },
         {
-            "image": "@/assets/ram/5.jpeg",
+            "image": "/assets/ram/5.jpeg",
             "name": "Team T-Force Delta RGB",
             "category": "RAM",
             "status": "In Stock",
@@ -581,7 +581,7 @@
             "individualRating": 4.7
         },
         {
-            "image": "@/assets/storage/1.jpg",
+            "image": "/assets/storage/1.jpg",
             "name": "Samsung 970 EVO Plus",
             "category": "Storage Device",
             "status": "In Stock",
@@ -609,7 +609,7 @@
             "individualRating": 4.9
         },
         {
-            "image": "@/assets/storage/2.jpeg",
+            "image": "/assets/storage/2.jpeg",
             "name": "Western Digital Black SN750",
             "category": "Storage Device",
             "status": "In Stock",
@@ -637,7 +637,7 @@
             "individualRating": 4.7
         },
         {
-            "image": "@/assets/storage/3.jpeg",
+            "image": "/assets/storage/3.jpeg",
             "name": "Crucial MX500",
             "category": "Storage Device",
             "status": "In Stock",
@@ -665,7 +665,7 @@
             "individualRating": 4.6
         },
         {
-            "image": "@/assets/storage/4.jpeg",
+            "image": "/assets/storage/4.jpeg",
             "name": "Seagate Barracuda 4TB",
             "category": "Storage Device",
             "status": "In Stock",
@@ -693,7 +693,7 @@
             "individualRating": 4.5
         },
         {
-            "image": "@/assets/storage/5.jpeg",
+            "image": "/assets/storage/5.jpeg",
             "name": "ADATA SU800",
             "category": "Storage Device",
             "status": "In Stock",
@@ -721,7 +721,7 @@
             "individualRating": 4.6
         },
         {
-            "image": "@/assets/psu/1.jpeg",
+            "image": "/assets/psu/1.jpeg",
             "name": "Corsair RM850x",
             "category": "Power Supply Unit",
             "status": "In Stock",
@@ -749,7 +749,7 @@
             "individualRating": 4.8
         },
         {
-            "image": "@/assets/psu/2.jpeg",
+            "image": "/assets/psu/2.jpeg",
             "name": "Seasonic Focus GX-750",
             "category": "Power Supply Unit",
             "status": "In Stock",
@@ -777,7 +777,7 @@
             "individualRating": 4.7
         },
         {
-            "image": "@/assets/psu/3.jpeg",
+            "image": "/assets/psu/3.jpeg",
             "name": "EVGA Supernova 850 GA",
             "category": "Power Supply Unit",
             "status": "In Stock",
@@ -805,7 +805,7 @@
             "individualRating": 4.9
         },
         {
-            "image": "@/assets/psu/4.jpeg",
+            "image": "/assets/psu/4.jpeg",
             "name": "Thermaltake Toughpower GF1 750W",
             "category": "Power Supply Unit",
             "status": "In Stock",
@@ -833,7 +833,7 @@
             "individualRating": 4.7
         },
         {
-            "image": "@/assets/psu/5.jpeg",
+            "image": "/assets/psu/5.jpeg",
             "name": "Cooler Master MWE Gold 650W",
             "category": "Power Supply Unit",
             "status": "In Stock",
@@ -861,7 +861,7 @@
             "individualRating": 4.6
         },
         {
-            "image": "@/assets/products/gpu1.jpg",
+            "image": "/assets/products/gpu1.jpg",
             "name": "NVIDIA GeForce RTX 3080",
             "category": "GPU",
             "status": "In Stock",
@@ -889,7 +889,7 @@
             "individualRating": 4.9
         },
         {
-            "image": "@/assets/products/mouse1.jpeg",
+            "image": "/assets/products/mouse1.jpeg",
             "name": "Logitech G Pro Wireless",
             "category": "Mouse",
             "status": "In Stock",
@@ -917,7 +917,7 @@
             "individualRating": 4.7
         },
         {
-            "image": "@/assets/products/keyboard1.jpeg",
+            "image": "/assets/products/keyboard1.jpeg",
             "name": "Razer Huntsman Elite",
             "category": "Keyboard",
             "status": "In Stock",
@@ -945,7 +945,7 @@
             "individualRating": 4.9
         },
         {
-            "image": "@/assets/monitor/lg-monitor.jpeg",
+            "image": "/assets/monitor/lg-monitor.jpeg",
             "name": "LG 27GL850-B",
             "category": "Monitor",
             "status": "In Stock",
