@@ -18,12 +18,12 @@ async function run(req, res) {
 
         if (req.method === "GET") {
 
-            switch(req.query.categoryId) {
+            switch (req.query.categoryId) {
                 case "cpu":
                     category = "CPU";
                     break;
                 case "motherboard":
-                    category = "Motherborad";
+                    category = "Motherboard";
                     break;
                 case "ram":
                     category = "RAM";
@@ -37,7 +37,7 @@ async function run(req, res) {
                 case "monitor":
                     category = "Monitor";
                     break;
-                case "other":   
+                case "other":
                     category = "Others";
                     break;
                 default:
@@ -45,6 +45,7 @@ async function run(req, res) {
             }
 
             const product = await productsCollection.find({ category }).toArray();
+
             res.send({ message: "success", category, data: product });
         }
 

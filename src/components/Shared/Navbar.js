@@ -51,25 +51,25 @@ const Navbar = () => {
                             <summary>Categories</summary>
                             <ul>
                                 <li>
-                                    <Link href='/cpu'>CPU</Link>
+                                    <Link href='/category/cpu'>CPU</Link>
                                 </li>
                                 <li>
-                                    <Link href='/motherboard'>Motherboard</Link>
+                                    <Link href='/category/motherboard'>Motherboard</Link>
                                 </li>
                                 <li>
-                                    <Link href='/ram'>RAM</Link>
+                                    <Link href='/category/ram'>RAM</Link>
                                 </li>
                                 <li>
-                                    <Link href='/psu'>Power Supply Unit</Link>
+                                    <Link href='/category/psu'>Power Supply Unit</Link>
                                 </li>
                                 <li>
-                                    <Link href='/storage'>Storage Device</Link>
+                                    <Link href='/category/storage'>Storage Device</Link>
                                 </li>
                                 <li>
-                                    <Link href='/monitor'>Monitor</Link>
+                                    <Link href='/category/monitor'>Monitor</Link>
                                 </li>
                                 <li>
-                                    <Link href='/other'>Others</Link>
+                                    <Link href='/category/other'>Others</Link>
                                 </li>
                             </ul>
                         </details>

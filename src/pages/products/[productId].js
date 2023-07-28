@@ -13,10 +13,24 @@ const ProductDetailsPage = ({ product }) => {
                 <figure><Image width={300} height={300} src={product?.image} alt="Product" /></figure>
                 <div className="card-body">
                     <h2 className="card-title">{product?.name}</h2>
-                    <p>{product?.description}</p>
-                    <div className="card-actions justify-end">
-                        <button className="btn btn-primary">Listen</button>
-                    </div>
+                    <p>Description: {product?.description}</p>
+                    <p>Category: {product?.category}</p>
+                    <p>Status: {product?.status}</p>
+                    <p>Price: {product?.price}$</p>
+                    <p>Features:</p>
+                    <ul className='pl-4'>
+                        {
+                            product.features.map((feature, index) => <li key={index}>{feature}</li>)
+                        }
+                    </ul>
+                    <p>Individual Rating: {product?.individualRating}/5</p>
+                    <p>Average Rating: {product?.rating}/5</p>
+                    <p>Reviews:</p>
+                    <ul className='pl-4'>
+                        {
+                            product.reviews.map((review, index) => <li key={index}>{review.name} - {review.comment}</li>)
+                        }
+                    </ul>
                 </div>
             </div>
         </>
