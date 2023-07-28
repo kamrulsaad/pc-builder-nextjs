@@ -44,7 +44,7 @@ const Navbar = () => {
                 <Link href='/' className='lg:text-3xl md:text-2xl text-lg uppercase font-bold'>Big Tech</Link>
             </div>
             <div className="navbar-end">
-                <ul className="menu menu-horizontal px-1 hidden lg:flex">
+                <ul className="menu menu-horizontal px-1 hidden lg:flex z-50">
                     <li><Link href='/'>Home</Link></li>
                     <li>
                         <details>
