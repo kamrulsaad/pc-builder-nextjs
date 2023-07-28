@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 const ProductCard = ({ product }) => {
@@ -14,7 +15,7 @@ const ProductCard = ({ product }) => {
                 <p>Status: {product?.status}</p>
                 <p>Rating: {product?.rating}</p>
                 <div className="card-actions">
-                    <button className="btn btn-primary btn-sm">Details</button>
+                    <Link href={`/products/${product?._id}`} className="btn btn-primary btn-sm">Details</Link>
                 </div>
             </div>
         </div>

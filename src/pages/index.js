@@ -2,8 +2,7 @@ import RootLayout from "@/components/Layouts/RootLayout"
 import ProductCard from "@/components/UI/ProductCard"
 import Head from "next/head"
 
-export default function HomePage({products}) {
-
+export default function HomePage({ products }) {
   return (
     <>
       <Head>
@@ -29,14 +28,28 @@ HomePage.getLayout = function getLayout(page) {
   )
 }
 
+const shuffleArray = (array) => {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+};
+
 export const getStaticProps = async () => {
-  const res = await fetch("http://localhost:3000/api/products")
-  const data = await res.json()
+  const res = await fetch("http://localhost:3000/api/products");
+  const data = await res.json();
+
+  const shuffledData = [...data.data];
+
+  shuffleArray(shuffledData);
+
+  const randomData = shuffledData.slice(0, 6);
+
   return {
     props: {
-      products: data.data
+      products: randomData,
     },
-    revalidate: 10
-  }
-}
+  };
+};
+
 

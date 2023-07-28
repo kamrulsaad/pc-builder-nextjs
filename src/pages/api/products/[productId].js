@@ -1,4 +1,4 @@
-const { MongoClient, ServerApiVersion } = require("mongodb");
+const { MongoClient, ServerApiVersion, ObjectId } = require("mongodb");
 const uri =
     "mongodb+srv://pcbuilder:lIHDo4WA1leTtHbA@cluster0.lsigos1.mongodb.net/?retryWrites=true&w=majority";
 const client = new MongoClient(uri, {
@@ -15,7 +15,7 @@ async function run(req, res) {
         const productsCollection = client.db("pc-builder").collection("products");
 
         if (req.method === "GET") {
-            const product = await productsCollection.findOne({ _id: req.query.productId });
+            const product = await productsCollection.findOne({ _id: new ObjectId(req.query.productId) });
             res.send({ message: "success", data: product });
         }
 

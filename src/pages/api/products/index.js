@@ -15,7 +15,7 @@ async function run(req, res) {
         const productsCollection = client.db("pc-builder").collection("products");
 
         if (req.method === "GET") {
-            const products = await productsCollection.aggregate([{ $sample: { size: 6 } }]).toArray();
+            const products = await productsCollection.find().toArray();
             res.send({ message: "success", data: products });
         }
 
