@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
-const ProductCard = ({ product }) => {
+const ProductCard = ({ product, builder }) => {
     return (
         <div className="card md:w-96 w-80 mx-auto bg-base-100 shadow-xl">
             <figure className="px-5 pt-5">
@@ -15,7 +15,11 @@ const ProductCard = ({ product }) => {
                 <p>Status: {product?.status}</p>
                 <p>Rating: {product?.rating}</p>
                 <div className="card-actions">
-                    <Link href={`/products/${product?._id}`} className="btn btn-primary btn-sm">Details</Link>
+                    {
+                        builder ? (
+                            <button className="btn btn-primary btn-sm">Add To Builder</button>) :
+                            <Link href={`/products/${product?._id}`} className="btn btn-primary btn-sm">Details</Link>
+                    }
                 </div>
             </div>
         </div>

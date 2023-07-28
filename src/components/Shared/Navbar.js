@@ -75,7 +75,7 @@ const Navbar = () => {
                         </details>
                     </li>
                 </ul>
-                <a className="btn btn-primary btn-sm">PC Builder</a>
+                <Link href={'/builder'} className="btn btn-primary btn-sm">PC Builder</Link>
             </div>
         </div>
     )
