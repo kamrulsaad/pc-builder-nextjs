@@ -14,7 +14,7 @@ const CategoryPage = ({ products, category }) => {
                 <h2 className="text-2xl text-center">Category: {category}</h2>
                 <div className="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8 my-10">
                     {
-                        products.map(product => <ProductCard key={product._id} product={product}></ProductCard>)
+                        products?.map(product => <ProductCard key={product._id} product={product}></ProductCard>)
                     }
                 </div>
             </div>
@@ -40,7 +40,7 @@ export const getStaticPaths = async () => {
 
 export const getStaticProps = async ({ params }) => {
     const { categoryId } = params
-    const res = await fetch(`http://localhost:3000/api/category/${categoryId}`)
+    const res = await fetch(`https://pc-builder-nextjs-kamrulsaad.vercel.app/api/category/${categoryId}`)
     const products = await res.json()
 
     return {

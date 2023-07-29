@@ -20,7 +20,7 @@ const ProductDetailsPage = ({ product }) => {
                     <p>Features:</p>
                     <ul className='pl-4'>
                         {
-                            product.features.map((feature, index) => <li key={index}>{feature}</li>)
+                            product?.features.map((feature, index) => <li key={index}>{feature}</li>)
                         }
                     </ul>
                     <p>Individual Rating: {product?.individualRating}/5</p>
@@ -28,7 +28,7 @@ const ProductDetailsPage = ({ product }) => {
                     <p>Reviews:</p>
                     <ul className='pl-4'>
                         {
-                            product.reviews.map((review, index) => <li key={index}>{review.name} - {review.comment}</li>)
+                            product?.reviews?.map((review, index) => <li key={index}>{review.name} - {review.comment}</li>)
                         }
                     </ul>
                 </div>
@@ -44,7 +44,7 @@ ProductDetailsPage.getLayout = function getLayout(page) {
 }
 
 export const getStaticPaths = async () => {
-    const res = await fetch(`http://localhost:3000/api/products`)
+    const res = await fetch(`https://pc-builder-nextjs-kamrulsaad.vercel.app/api/products`)
     const product = await res.json()
 
     const paths = product.data.map((product) => ({
@@ -56,7 +56,7 @@ export const getStaticPaths = async () => {
 
 export const getStaticProps = async ({ params }) => {
     const { productId } = params
-    const res = await fetch(`http://localhost:3000/api/products/${productId}`)
+    const res = await fetch(`https://pc-builder-nextjs-kamrulsaad.vercel.app/api/products/${productId}`)
     const product = await res.json()
 
     return {

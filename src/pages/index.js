@@ -27,7 +27,7 @@ export default function HomePage({ products }) {
           <h2 className="text-2xl text-center">Featured Products</h2>
           <div className="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8 my-10">
             {
-              products.map(product => <ProductCard key={product._id} product={product}></ProductCard>)
+              products?.map(product => <ProductCard key={product._id} product={product}></ProductCard>)
             }
           </div>
         </div>
@@ -65,7 +65,7 @@ const shuffleArray = (array) => {
 };
 
 export const getStaticProps = async () => {
-  const res = await fetch("http://localhost:3000/api/products");
+  const res = await fetch("https://pc-builder-nextjs-kamrulsaad.vercel.app/api/products");
   const data = await res.json();
 
   const shuffledData = [...data.data];
